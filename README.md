@@ -1,21 +1,22 @@
-<<<<<<< HEAD
-# bibipweather
 
-Minimal Hava Durumu
+BipbipWeather: Konum Bazlı Hava Durumu Uygulaması
 
-## Getting Started
+BipbipWeather, kullanıcılara anlık hava durumu verilerini GPS tabanlı konum bilgileriyle sağlayan, minimalist ve kullanıcı odaklı bir mobil uygulamadır. Uygulama, kullanıcının mevcut coğrafi konumunu tespit ederek, gerçek zamanlı hava durumu verilerini sunar. Kullanıcılar, yalnızca sıcaklık derecesi ve hava durumu durumu (örneğin, bulutlu, açık hava vb.) gibi temel bilgileri görüntüleyerek, çevrelerindeki hava koşullarını hızlı ve doğru bir şekilde öğrenebilirler.
 
-This project is a starting point for a Flutter application.
+Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+- GPS Entegrasyonu: Uygulama, cihazın GPS özelliğini kullanarak kullanıcının konumunu otomatik olarak tespit eder.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Hava Durumu Bilgisi: Konuma göre anlık hava durumu verisi (sıcaklık, nem, rüzgar hızı vb.) sunar.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# bipbipweather
-Minimal mobile weather app
->>>>>>> 60117aac734815703482b32e2dcc39b9fd3568b6
+- Minimalist Tasarım: Kullanıcı dostu ve sade arayüzü ile ihtiyacınız olan tüm bilgileri hızlıca ve kolayca görüntüleyebilirsiniz.
+
+Teknolojiler
+
+- Flutter: Hem Android hem de iOS platformlarında çalışan çapraz platform bir uygulama geliştirilmiştir.
+
+- GPS ve Konum Servisleri: Gerçek zamanlı konum verisi almak için cihazın yerel GPS özellikleri kullanılmıştır.
+
+- Hava Durumu API'si: Hava durumu verilerini sağlamak için güvenilir ve hızlı bir API entegrasyonu yapılmıştır.
+
+
